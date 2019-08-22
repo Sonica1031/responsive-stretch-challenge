@@ -1,0 +1,173 @@
+/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,
+address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,
+center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,
+summary,time,mark,audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,blockquote:after,q:before,q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.mobileLogo{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+nav{
+  width: 100%
+}
+
+nav a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  opacity: .5;
+  order: 0;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.topBorder{
+  border-top: 1px solid black;
+}
+
+.innovationClass{
+display:flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+width: 100%;
+}
+
+.innovationClass h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.innovationClass button{
+  margin: 0 150px 0 150px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.firstLine{
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.secondLine{
+  padding: 20px;
+}
+
+.featureClass{
+  padding: 10px;
+}
+
+.aboutClass{
+  padding: 10px;
+}
+
+.thirdLine{
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.servicesClass{
+  padding: 10px;
+}
+
+.productClass{
+  padding: 10px;
+}
+
+.visionClass{
+  padding: 10px;
+}
+
+address{
+  padding: 10px;
+}
+
+.Copy-write{
+  text-align: center;
+}
+
+.logo-image{
+  display:flex;
+  order: -1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topImg{
+  display: none;
+}
+
+.middle-img{
+
+width: 90%;
+height: auto;
+padding: 2% 0 2% 5%;
+
+}
+

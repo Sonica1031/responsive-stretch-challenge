@@ -1,0 +1,19 @@
+@media(min-width:815px){
+.mobileLogo{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}    
+nav{
+    width: 60%
+} 
+.logo-image{
+    display:flex;
+    order: 1;
+    flex-direction: flex-end;
+    align-items: center;
+      }
+.topImg{
+    display: flex;
+  }
+}

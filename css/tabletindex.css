@@ -1,0 +1,117 @@
+@media(min-width:515px){
+
+.mobileLogo{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  order: 0;
+  width: 100%
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%
+}
+
+nav a{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-bottom: none;
+  width: 100%
+}
+
+.topBorder{
+  border-top: none;
+}
+
+.innovationClass{
+
+flex-direction: column;
+align-items: center;
+}
+
+.innovationClass h1{
+  font-size: 70px;
+  text-align: center;
+}
+
+.innovationClass button{
+width: 150px;
+}
+
+.firstLine{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.secondLine{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.featureClass{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.aboutClass{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.thirdLine{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.servicesClass{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.productClass{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.visionClass{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+address{
+  padding: 10px;
+}
+
+.Copy-write{
+  text-align: center;
+}
+
+.logo-image{
+  display:flex;
+  order: -1;
+  flex-direction: flex-end;
+  align-items: center;
+}
+
+.middle-img{
+
+width: 90%;
+height: auto;
+padding: 2% 0 2% 5%;
+
+}
+}
